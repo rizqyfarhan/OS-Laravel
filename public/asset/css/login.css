@@ -1,0 +1,9 @@
+.bxl-shopify {
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.bxl-shopify:hover, .bxl-shopify:visited {
+    color: black;
+}
