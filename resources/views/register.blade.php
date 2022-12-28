@@ -33,22 +33,22 @@
                             <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Register your account</h5>
 
                             <div class="form-outline mb-4">
-                                <input type="text" id="form2Example7" class="form-control form-control-lg" placeholder="User Name" name="username" value="<?php echo $username;?>" />
+                                <input type="text" id="form2Example7" class="form-control form-control-lg" placeholder="User Name" name="username" />
                                 <label class="form-label" for="form2Example7">Username</label>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input type="email" id="form2Example17" class="form-control form-control-lg" placeholder="Email" name="email" value="<?php echo $email;?>" required/>
+                                <input type="email" id="form2Example17" class="form-control form-control-lg" placeholder="Email" name="email" required/>
                                 <label class="form-label" for="form2Example17">Email address</label>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input type="password" id="form2Example27" class="form-control form-control-lg" placeholder="Password" name="password" value="<?php $_POST["password"]?>" required/>
+                                <input type="password" id="form2Example27" class="form-control form-control-lg" placeholder="Password" name="password" required/>
                                 <label class="form-label" for="form2Example27">Password</label>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input type="password" id="form2Example37" class="form-control form-control-lg" placeholder="Retype Password" name="repassword" value="<?php $_POST["repassword"]?>" required/>
+                                <input type="password" id="form2Example37" class="form-control form-control-lg" placeholder="Retype Password" name="repassword" required/>
                                 <label class="form-label" for="form2Example37">Retype Password</label>
                             </div>
 
